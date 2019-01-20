@@ -11,6 +11,7 @@ public class MySketch extends PApplet {
         String[] processingArgs = {"MySketch"};
         MySketch mySketch = new MySketch();
         PApplet.runSketch(processingArgs, mySketch);
+
     }
 
     public void settings() {
