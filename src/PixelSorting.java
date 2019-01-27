@@ -1,16 +1,16 @@
 import processing.core.PApplet;
 import processing.core.PImage;
 
-public class MySketch extends PApplet {
+public class PixelSorting extends PApplet {
 
     PImage img;
     PImage sorted;
     int index = 0;
 
     public static void main(String[] args) {
-        String[] processingArgs = {"MySketch"};
-        MySketch mySketch = new MySketch();
-        PApplet.runSketch(processingArgs, mySketch);
+        String[] processingArgs = {"PixelSorting"};
+        PixelSorting pixelSorting = new PixelSorting();
+        PApplet.runSketch(processingArgs, pixelSorting);
 
     }
 
